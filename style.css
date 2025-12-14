@@ -1,0 +1,11 @@
+img{
+    width:400px;
+    align-content: space-between;
+}
+
+body{
+    text-align: center;
+    font-family: 'Comfortaa-Semi Bold';
+    background: hwb(180 90% 0%);
+    color: rgb(16, 6, 16);
+}
