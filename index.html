@@ -1,26 +1,102 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <img src="https://github.com/JimilPatel-24/learning-static-websites/blob/main/image.png?raw=true"
-        />
-        <img src="https://github.com/JimilPatel-24/learning-static-websites/blob/main/unnamed.png?raw=true"/>
-        <h1>Hi! , I am Jimil Patel</h2>
-        <p> Welcome to my journey as a game dev so far.</p>
-        <h2>How it all Started...</h2>
-        <p>My journey began when I stumbled across Brackeys’ famous “How to Make a Game” video. Completing that first tutorial filled me with excitement and motivation. From there, I began experimenting with different mechanics, building small projects ranging from top-down shooters to a lava-based adventure game. </p>
-        In Brackeys Game Jam 2021.2, I created my first jam entry. Out of 1,698 entries, my game ranked #858. For me, this was an incredible milestone — my first step into the global game dev community. 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Home Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <p>
-            In Brackeys Game Jam 2021.2, I created my first jam entry. Out of 1,698 entries, my game ranked #858. For me, this was an incredible milestone — my first step into the global game dev community. 
+</head>
+<body>
+    <header>
+        <div class="nav-container ">
+            <a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <p>About</p>
+            </a>
+            <a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <p>Store</p>
+            </a>
+        </div>
+        <nav class="nav-container nav-container-second">
+            <a class="text-link" target="_blank" href="https://www.linkedin.com/in/jimil-p/">
+                <p>Gmail</p>
+            </a>
+            <a class="text-link" target="_blank" href="https://www.linkedin.com/in/jimil-p/">
+                <p>Images</p>
+            </a>
+            <a>
+                <i class="fa-solid fa-flask"></i>
+            </a>
+            <a>
+                <i class="fa-solid fa-braille"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/jimil-p/">
+                <button class="img-button">
+                    <img src="/public/profile-pic.png" alt="profile-pic"/>
+                </button>
+            </a>
+        </nav>
+    </header>
 
-After experimenting with Unity, I explored Blender to improve the visuals of my projects. While I realized 3D modeling wasn’t my strongest fit, I still dedicated time to learning and creating renders. Some of my work is showcased here, reflecting the effort I put into improving the look and feel of my games. 
-        </p>
-        <h3>The Production Quality</h3>
-        <p>
-           After gaining experience with tutorials, prototypes, and jams, I set out to bring my own idea to life. The result was Balance!!!, my first original game — designed, developed, and published entirely by me. Publishing this game taught me not only game design and programming, but also production, polish, and publishing skills. After navigating Google Play’s publishing process, I successfully shipped the game to the world, where it was downloaded and enjoyed by 42 players organically.  
-        </p>
-    </body>
+    <main>
+        <h1 class="title-text">Google</h1>
+        <div class="input-bar">
+            <i class="fa-brands fa-searchengin"></i>
+            <input />
+            <div>
+                <button class="input-icon"> 
+                    <i class="fa-solid fa-microphone "></i> 
+                </button>
+                <button class="input-icon">
+                    <i class="fa-solid fa-camera "></i>
+                </button>
+            </div>
+        </div>
+        <div class="button-grid">
+            <button>
+                <p>Google Search </p>
+            </button>
+            <button>
+                <p>I'm Feeling Lucky</p>
+            </button>
+        </div>
+        <p class="lang-text">Google Offered in: <a class="lang-link">हिन्दी</a></p>
+    </main>
+
+    <footer>
+        <div>
+            <p>India</p>
+        </div>
+        <hr/>
+        <div class="footer-grid">
+            <div class="footer-links">
+                <a  href="/">
+                    <p>Advertising</p>
+                </a>
+                <a href="/">
+                    <p>Business</p>
+                </a>
+                <a href="/">
+                    <p>How Search Works</p>
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="/">
+                    <p>Privacy</p>
+                </a>
+                <a href="/">
+                    <p>Terms</p>
+                </a>
+                <a href="/">
+                    <p>Settings</p>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
 </html>
